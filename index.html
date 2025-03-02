@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bs Component with Tooltip</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body class="text-center">  
+  
+    <div class="container mt-3">
+      <h3>Tooltip Example</h3> <br><br>
+      
+      <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" title="Tooltip exercise!">
+        Hover over me!
+      </button>
+    </div><br><br><br><br>
+    
+
+    <div class="container mt-3">
+      <h3>Tooltip Positioning</h3>
+      <p>The data-bs-placement attribute specifies the tooltip position.</p>
+      <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Its Top!">Top</a>
+      <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Its Bottom!">Bottom</a>
+      <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Its Left!">Left</a>
+      <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="Its Right!">Right</a>
+    </div>
+<br><br><br><br>
+
+<button type="button" class="btn btn-secondary"
+        data-bs-toggle="tooltip" data-bs-placement="top"
+        data-bs-custom-class="custom-tooltip"
+        data-bs-title="This top tooltip is themed via CSS variables.">
+  Custom tooltip
+
+  
+</button>
+
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
+  Tooltip on top
+</button>
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Tooltip on right">
+  Tooltip on right
+</button>
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom">
+  Tooltip on bottom
+</button>
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left">
+  Tooltip on left
+</button>
+
+
+
+<br><br>
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/script.js"></script> 
+</body>
+</html>
